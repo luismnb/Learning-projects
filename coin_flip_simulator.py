@@ -1,1 +1,1 @@
-coin_flip_simulator.py
+coin_flip_simulator/coin_flip_simulator.py
