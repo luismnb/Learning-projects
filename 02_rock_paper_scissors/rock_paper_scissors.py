@@ -78,6 +78,10 @@ while restart == 1:
         print(f"Marcador final: Jugador {puntos_jugador} - {puntos_cpu} CPU")
         print("Vale, luego seguimos jugando 😀")
         break
+    elif restart == 1:
+        continue
+    
     else:
         print("Selección inválida, vuelve a intentarlo")
         restart = int(input("¿Volver a jugar? 1 para SI, 2 para NO "))
+        
